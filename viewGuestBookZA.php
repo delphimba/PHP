@@ -36,7 +36,7 @@
         echo '<a href="viewGuestBook.php">View GuestBook</a><br />';
         echo '<a href="viewGuestBookAZ.php">Sort Visitors A-Z</a><br />';
         echo '<a href="viewGuestBookZA.php">Sort Visitors Z-A</a><br />';
-        
     ?>
+	<!---END CODE--->
 </body>	
 </html>
