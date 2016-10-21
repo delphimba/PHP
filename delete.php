@@ -40,7 +40,7 @@
         
         /**********************************************************************\
          * 
-         * LINK TO GO BACK TO GUESTBOOK VIEW
+         * LINK TO GO BACK TO GUESTBOOK VIEW.
          * 
         \**********************************************************************/          
         echo '<a href="viewGuestBook.php">Go Back</a>';
