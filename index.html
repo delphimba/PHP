@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--MATTHEW B ANDERSON IT207 LAB9-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+    <title>GUESTBOOK</title>
+</head>
+<body>
+    <p class="title">GuestBook</p>
+    <hr />
+    <form action="signGuestBook.php" method="post">
+        <table border="1" class="center">
+            <tr>
+                <td colspan="2"><p class="highlight">SIGN GUEST BOOK</p></td>
+            </tr>
+            <tr>
+                <td>First Name:<input type="text" name="firstName" /></td>
+                <td>Last Name:<input type="text" name="lastName" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">Email:<input type="text" size="60" name="email" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">Comment:<textarea rows="4" cols="50" name="comment">Make a Comment...</textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="ADD ENTRY" /><input type="reset" value="CLEAR" /></td>
+            </tr>
+        </table>
+    </form>
+    <hr />
+    <a href="viewGuestBook.php">View GuestBook</a>
+</body>	
+</html>

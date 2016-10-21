@@ -1,0 +1,138 @@
+p.nav {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 80%;
+}
+
+p.body{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 80%;
+        font-weight:bold;
+        text-align:left;
+        
+}
+
+p.fieldTitle {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:100%;
+    font-weight:bold;
+}
+
+p.fieldEntry {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:100%;
+    font-style:italic;
+}
+
+p.title {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:130%;
+    font-weight:bold;
+    text-align:center;
+}
+
+p.highlight {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 100%;
+    font-weight:bold;
+    color:#CCFF00;
+}
+
+p.header {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 100%;
+}
+
+p.footer {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 70%;
+}
+
+ul.navLink {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 80%;
+	list-style-type:square;
+}
+
+body {
+	background-color:#989898;
+}
+
+a:link{
+	color:#049032;
+	text-decoration:none;
+}
+a:visited{
+	color:#049032;
+} 
+a:hover{
+	color:#049032;
+	text-decoration:underline;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size:100%;
+  font-weight:bold;
+}
+
+table.calendar {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+    background-color:#D585FF;
+}
+
+td.title {
+    border:1px solid black;
+    height:50px;
+    width:auto;
+    font-family:Arial,Helvetica,sans-serif;
+    text-decoration:underline;
+    font-weight:bold;
+    background-color:#D585FF;
+    text-align:center;
+}
+
+td {
+    border: 1px solid black;
+    text-align:center;
+}
+
+td.left {
+    border:1px solid black;
+    text-align:left;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:80%;
+}
+
+td.form {
+    border: 1px solid black;
+    height:40px;
+    width:230px;
+    text-align:right;
+    vertical-align:central;
+}
+
+#header {
+  text-align: center;
+}
+
+#body {
+	text-align: center;
+    vertical-align: middle;
+	margin: auto;
+}
+
+#footer {
+	text-align: center;
+}
